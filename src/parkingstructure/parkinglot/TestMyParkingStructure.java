@@ -43,7 +43,7 @@ public class TestMyParkingStructure {
 			try{
 				while(s.hasNext()){
 					String line = s.nextLine();
-					if(line.trim().equals("close")){
+					if(line.trim().equals("exit")){
 						s.close();
 						System.out.println("Thank you! Have a good day!");
 						break;
